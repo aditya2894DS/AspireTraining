@@ -1,0 +1,58 @@
+.topbar-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.topbar-container .logo-img{
+    height: 120px;
+}
+
+.user-section{
+    display: flex;
+    align-items: center;
+}
+
+.user-image-section{
+    display: flex;
+    margin-left: 5px;
+}
+
+.user-image-section .profileimage-container{
+    margin-right: -10px;
+}
+
+.topbar-btn{
+    padding: 10px 30px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.profileimage-container{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+}
+
+.profileimage-container img{
+    height: 30px;
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
