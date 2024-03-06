@@ -1,0 +1,37 @@
+.tooltip-icon-container{
+    height: 0.4in;
+    width: 0.3in;
+    position: relative;
+}
+
+.tooltip-icon-container .tooltip-text{  
+    position: absolute;
+    left: 174%;
+    width: 120px;
+    border-radius: 6px;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 5px 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-text::after{
+    content: "";
+    position: absolute;
+    top: 27%; 
+    left: -11px;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent blanchedalmond transparent transparent;
+}
+
+.tooltip-text.show{
+    opacity: 1;
+    visibility: visible;
+}
+
+.tooltip-text.hide{
+    opacity: 0;
+    visibility: hidden;
+}

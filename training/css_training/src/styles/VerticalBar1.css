@@ -1,0 +1,47 @@
+#vert-bar-1-section{
+    height: 97%;
+}
+
+#vertical-bar-1{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px 0;
+    background-color: #E4D4C8;
+    border-radius: 5px;
+}
+
+.vertbar-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section{
+    flex: 0.6;
+}
+
+.top-section .tooltip-icon-container{
+    margin-bottom: 0.5in;
+}
+
+.bottom-section .tooltip-icon-container{
+    margin-top: 0.5in;
+}
+
+.bottom-section{
+    flex: 0.3;
+    border-top: 1px solid grey;
+}
+
+.icon-container{
+    height: 0.7cm;
+    width: 0.7cm;
+    background-image: url("../icons/home-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
