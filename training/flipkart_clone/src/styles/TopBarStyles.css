@@ -1,0 +1,69 @@
+.topbar-container{
+    display: flex;
+    align-items: center;
+    margin: 10px 50px;
+    justify-content: space-between;
+}
+
+#site-logo{
+    max-height: 150px;
+    max-width: 150px;
+    position: relative;
+}
+
+.searchbar-container{
+    display: flex;
+    width: 40%;
+    height: 1cm;
+}
+
+.searchbar-icn{
+    border: 1px solid black;
+    border-right: none;
+    padding-left: 5px;
+    border-radius: 4px 0 0 4px;
+}   
+
+#topbar-search{
+    height: 90%;
+    flex: 1;
+    border: 0.5px solid black;
+    border-left: none;
+    outline: none;
+    border-radius: 0 4px 4px 0;
+}
+
+#topbar-search:focus{
+    outline: none;
+}
+
+.threedots-option{
+    padding: 20px;  
+}
+
+@media  screen and (max-width: 1022px) {
+    .hidable{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 765px) {
+    .hamburgerlist-icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 765px){
+    .searchbar-container{
+        display: none;
+    }
+    .shop-option, .threedots-option{
+        display: none;
+    }
+    .user-option{
+        left: 10%;
+    }
+    #site-logo{
+       right: 10%;
+    }
+}

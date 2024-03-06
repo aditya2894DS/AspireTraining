@@ -1,0 +1,61 @@
+.owl-carousel{
+    z-index: 1;
+    position: relative;
+}
+
+.owl-carousel .owl-stage-outer{
+    max-height: 20em;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    margin: 0;
+    width: 0.5in;
+    min-height: 1in;
+    background-size: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span{
+    position: relative;
+    top: 0;
+    visibility: hidden;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    top: 30%;
+    left: 0;
+    background-image: url('../assets/icons/left-chevron.png');
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    top: 30%;
+    right: 0;
+    background-image: url('../assets/icons/right-chevron.png');
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: white;
+    background-size: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background-image: url('../assets/icons/left-chevron.png');   
+}
+
+
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-image: url('../assets/icons/right-chevron.png');
+}
+
+
+
+

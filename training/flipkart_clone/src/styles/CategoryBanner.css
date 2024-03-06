@@ -1,0 +1,28 @@
+.category-banner-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.category-name-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-name{
+    margin-right: 5px;
+}
+
+.imagedd-container{
+    display: flex;
+    flex-direction: column; 
+    justify-self: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imagedd-container img{
+    height: 1in;
+    width: 1in;
+}

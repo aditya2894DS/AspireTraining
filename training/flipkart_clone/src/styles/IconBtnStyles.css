@@ -1,0 +1,71 @@
+.iconbtn-container, .iconbtn-container a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.iconbtn-container a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.dropdown-container{
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+    list-style: none;
+    width: max-content;
+    box-shadow: 0px 0px 8px grey;
+    top: 70%;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 10;
+}
+
+.dropdown li{
+    padding: 5px;
+}
+
+.user-option:hover{
+    background-color: blue;
+}
+
+.user-option:hover .icon-div{
+    background-image: url("../assets/icons/glass.png");
+}
+.user-option:hover .btn-name{
+    color: white;
+}
+
+.newcustomer-option{
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.dropdown-signup-btn{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: blue;
+    background: white;
+    font-size: 1em;
+}
+
+.left-align{
+    right: 0;
+}
+
+.active{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
