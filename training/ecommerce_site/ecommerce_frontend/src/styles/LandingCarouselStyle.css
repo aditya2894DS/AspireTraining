@@ -1,0 +1,50 @@
+.landing-carousel-outer{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.landing-carousel-inner{
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-image-container{
+    z-index: 1;
+}
+
+.arrow-container{
+    position: absolute;
+    padding: 30px 10px;
+    background-color: aliceblue;
+    /* top: 30%; */
+    cursor: pointer;
+    z-index: 2;
+}
+
+.arrow-container.prev .icon-div,
+.arrow-container.next .icon-div{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+}
+
+.arrow-container.prev{
+    left: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.arrow-container.next{
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.arrow-container.prev .icon-div{
+    background-image: url('https://img.icons8.com/ios-glyphs/30/chevron-left.png');
+}
+
+.arrow-container.next .icon-div{
+    background-image: url('https://img.icons8.com/ios-glyphs/30/chevron-left.png');
+    transform: rotate(180deg);
+}

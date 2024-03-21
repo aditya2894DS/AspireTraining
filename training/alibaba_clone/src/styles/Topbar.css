@@ -1,0 +1,96 @@
+.topbar-container{
+    color: white;
+    background-image: linear-gradient(black, transparent);
+    position: relative;
+    z-index: 2;
+}
+
+.topbar-container .expo-div{
+    height: 40px;
+    width: 100%;
+    background-image: url('https://s.alicdn.com/@img/imgextra/i4/O1CN01TLDA9f1yXMCkj860D_!!6000000006588-0-tps-3840-80.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topbar-container .middle-bar{
+    /* background-color: black; */
+    padding: 20px 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar-container .middle-bar .middlebar-right-section{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    width: 38%;
+    justify-content: space-between;
+}
+
+.topbar-container .middle-bar .middlebar-right-section .deliver-hover p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.topbar-container .middle-bar .middlebar-right-section  .deliver-hover .delivery-country-section{
+    display: flex;
+    align-items: center;
+}
+
+.topbar-container .middle-bar .middlebar-right-section  .deliver-hover .delivery-country-section > *{
+    margin: 0;
+}
+
+.topbar-container .middle-bar .middlebar-right-section  .deliver-hover .delivery-country-section .flag-icon-holder{
+    height: 16px;
+    width: 26px;
+    background-image: url('https://static-00.iconduck.com/assets.00/india-icon-2048x1463-osctf4o5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.topbar-container .middle-bar img{
+    height: 30px;
+}
+
+.signin-btn{
+    background-color: orange;
+    height: 40px;
+    width: 165px;
+    font-weight: bold;
+}
+
+.bottom-bar{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px 27px;
+}
+
+.bottom-bar-left-section,
+.bottom-bar-right-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-bar-left-section{
+ width: 50%;
+}
+
+.bottom-bar-right-section{
+    width: 39%;
+
+}
+
+/* Icon button style */
+.icon-btn-container p{
+    margin: 0;
+}

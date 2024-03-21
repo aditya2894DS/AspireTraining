@@ -1,0 +1,75 @@
+.product-gallery-container{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.product-gallery-container .heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 20px 20px 20px 10px;
+}
+
+.heading-container .heading{
+    margin: 0;
+}
+
+.product-gallery-container .gallery-arrow-container{
+    padding: 4px;;
+    border-radius: 50%;
+    background-color: #2A55E5;
+}
+
+.icon-div.gallery-arrow{
+    background-image: url('https://img.icons8.com/ios-glyphs/30/chevron-left.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 7px;
+    transform: rotate(180deg);
+}
+
+.product-gallery-container.four-grid{
+    width: 40%;
+}
+
+.product-gallery-container.four-grid .gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}   
+
+.product-gallery-container.carousel .gallery-grid{
+    display: flex;
+    padding: 0 10px;
+}
+
+.product-gallery-container.carousel .product-card-container{
+    margin-right: 10px;
+}
+
+.carousel-arrow-container{
+    position: absolute;
+    padding: 30px 10px;
+    top: 50%;
+    right: 0;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.carousel-arrow-container.hide{
+    display: none;
+}
+
+.carousel-arrow-container .icon-div{
+    background-image: url("https://img.icons8.com/material-sharp/24/chevron-right.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+}

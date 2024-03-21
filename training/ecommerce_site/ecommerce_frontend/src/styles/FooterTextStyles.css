@@ -1,0 +1,16 @@
+.footer-text-component-container{
+    padding: 30px 50px;
+}
+
+.footer-text-component-container .footer-text .subheading{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.footer-text-component-container .footer-text .desc-text{
+    margin: 0;
+}
+
+.footer-text-component-container .footer-text .desc-text{
+    font-size: 0.8em;
+}

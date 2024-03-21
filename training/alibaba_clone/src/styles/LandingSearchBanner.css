@@ -1,0 +1,42 @@
+.landing-search-banner-container{
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/1727882452/display_1500/stock-photo-from-above-of-group-of-diverse-colleagues-in-formal-clothing-discussing-business-ideas-while-1727882452.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 20px;
+    height: 670px;
+}
+
+.banner-form{
+    max-width: 11in;
+    margin-left: 75px;
+    margin-top: 250px;
+}
+
+.landing-search-banner-container .LearnAlibaba-option{
+    color: white;
+}
+
+.landing-search-banner-container .banner-big-text{
+    color: white;
+    font-weight: bold;
+    font-size: 51px;
+}
+
+.frequently-searched-bar{
+    color: white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.frequently-searched-bar .f-searched-btn{
+    border: 1px solid white;
+    padding: 10px 20px;
+}

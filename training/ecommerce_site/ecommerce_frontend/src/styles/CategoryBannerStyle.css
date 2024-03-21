@@ -1,0 +1,8 @@
+.category-banner-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    background-color: white;
+    margin: 10px;
+    cursor: pointer;
+}

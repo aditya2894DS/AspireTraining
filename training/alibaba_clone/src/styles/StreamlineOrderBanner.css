@@ -1,0 +1,46 @@
+.streamline-order-banner-container {
+    position: relative;
+    margin-top: 600px;
+    /* border: 1px solid red; */
+    /* max-height: 1000px; */
+}
+
+.streamline-order-banner-container .banner-heading-text{
+    font-weight: bold;
+    font-size: 50px;
+    max-width: 10in;
+    margin-left: 0.5in;
+}
+
+.streamline-order-banner-list-image-container{
+    display: flex;
+    margin: 50px;
+}
+
+.streamline-order-banner-list-image-container .left-section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.streamline-order-banner-list-image-container .right-section{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: flex-start;
+    padding-top: 100px;
+    height: 597px;
+}
+
+.streamline-order-banner-list-image-container .right-section img{
+    height: 80%;
+}
+
+.list-separator{
+    width: 3px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin-left: 50px;
+}

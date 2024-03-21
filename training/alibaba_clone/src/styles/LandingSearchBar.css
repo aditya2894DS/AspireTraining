@@ -1,0 +1,33 @@
+.landing-searchbar-container{
+    background-color: white;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+}
+
+.landing-searchbar-container .searchbar-input{
+    flex: 0.95;
+    height: 30px;
+    font-size: 25px;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+}
+
+.landing-searchbar-container .image-search-icon-div{
+    background-image: url('https://img.icons8.com/material-rounded/24/camera--v2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.landing-searchbar-container .search-btn{
+    background-color: orange;
+    height: 40px;
+    width: 140px;
+    color: white;
+}

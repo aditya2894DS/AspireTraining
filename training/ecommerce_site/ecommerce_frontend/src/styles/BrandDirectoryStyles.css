@@ -1,0 +1,38 @@
+.brand-directory-section-container{
+    padding: 20px 50px;
+}
+
+.brand-directory-section-container .section-heading{
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.brand-dir-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.brand-dir-list-container p{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.brand-dir-list-container p::after{
+    content: ":"
+}
+
+.brand-dir-list-container li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid black;
+    padding: 1px 5px
+}
+
+.brand-dir-list-container li:last-child{
+    border: none;
+}

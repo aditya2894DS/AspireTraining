@@ -1,0 +1,30 @@
+.product-card-container{
+    height: 2.5in;
+    width: 2in;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.product-card-container .text-container p{
+    margin: 0;
+}
+
+.product-card-container img{
+    align-self: center;
+    height: 142px;
+}
+
+.top-text{
+    font-size: 20px;
+}
+
+.green{
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+}

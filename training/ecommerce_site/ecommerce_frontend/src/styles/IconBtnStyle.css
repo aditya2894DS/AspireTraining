@@ -1,0 +1,26 @@
+.icon-btn-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-btn-container .icon-div{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px
+}
+
+.icon-btn-container .dropdown-arrow{
+    background-image: url('https://img.icons8.com/material-rounded/24/chevron-down.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7px;
+    transition: 0.2s ease-in-out;
+    margin-left: 5px;
+}
+
+.icon-btn-container .dropdown-arrow.open{
+    transform: rotate(180deg);
+}

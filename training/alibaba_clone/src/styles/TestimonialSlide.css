@@ -1,0 +1,62 @@
+.testimonial-container{
+    display: flex;
+    padding: 40px 20px;
+    border-radius: 10px;
+    width: 60%;
+    align-items: center;
+    height: 56%;
+    background-color: #F7F2F0;
+}
+
+.testimonial-container .left-section,
+.testimonial-container .right-section{
+    flex: 0.5;
+}
+
+.testimonial-container .left-section{
+    display: flex;
+}
+
+.testimonial-container .left-section .img-container{
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.testimonial-container .left-section .img-container .user-img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.testimonial-container .left-section .text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-container .left-section .text-container > p{
+    margin: 0;
+} 
+
+.testimonial-container .left-section .text-container .username{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.testimonial-container .left-section .text-container .userdesc{
+    font-size: 1em;
+    color: grey;
+}
+
+.testimonial-container .right-section p::before,
+.testimonial-container .right-section p::after{
+    content: "\"";
+}
+
+
+.testimonial-container .right-section p{
+    font-weight: bold;
+    font-size: 30px;
+}

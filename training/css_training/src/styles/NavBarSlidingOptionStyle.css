@@ -1,0 +1,32 @@
+.navbar-container{
+    display: flex;
+    width: max-content;
+    margin: auto;
+}
+
+.icon-btn-container{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.icon-btn-container .icon-div{
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+    flex-shrink: 0;
+    /* border: 1px solid red; */
+}
+
+.icon-btn-container .btn-text{
+    /* border: 1px solid red; */
+    width: 0;
+    overflow: hidden;
+    transition: width 0.1s;
+}
+
+.icon-btn-container .btn-text.active{
+    transition: width 1s;
+    width: 100%;
+}

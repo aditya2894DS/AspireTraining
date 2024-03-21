@@ -7,6 +7,7 @@ import LoginPage from './Pages/LoginPage';
 import SellerPage from './Pages/SellerPage';
 import SignUpPage from './Pages/SignUpPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/signup' element={<SignUpPage />} />  
         <Route path='/login' element={<LoginPage />} />  
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

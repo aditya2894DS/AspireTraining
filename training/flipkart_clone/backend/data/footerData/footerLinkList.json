@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "mainTitle": "About",
+    "options": [
+      { "id": 1, "title": "Contact us" },
+      { "id": 2, "title": "About us" },
+      { "id": 3, "title": "Careers us" },
+      { "id": 4, "title": "Flipkart stories" },
+      { "id": 5, "title": "Press" },
+      { "id": 6, "title": "Corporate information" }
+    ]
+  },
+  {
+    "id": 2,
+    "mainTitle": "Group companies",
+    "options": [
+      { "id": 1, "title": "Myntra" },
+      { "id": 2, "title": "Flipkart Wholesale" },
+      { "id": 3, "title": "Cleartrip" },
+      { "id": 4, "title": "Shopsy" }
+    ]
+  },
+  {
+    "id": 3,
+    "mainTitle": "Help",
+    "options": [
+      { "id": 1, "title": "Payments" },
+      { "id": 2, "title": "Shipping" },
+      { "id": 3, "title": "Cancellation & Return" },
+      { "id": 4, "title": "FAQ" },
+      { "id": 5, "title": "Report Infringement" }
+    ]
+  },
+  {
+    "id": 4,
+    "mainTitle": "Consumer policy",
+    "options": [
+      { "id": 1, "title": "Cancellation & Returns" },
+      { "id": 2, "title": "Terms Of Use" },
+      { "id": 3, "title": "Security" },
+      { "id": 4, "title": "Privacy" },
+      { "id": 5, "title": "Sitemap" },
+      { "id": 5, "title": "Grievance Redressal" },
+      { "id": 5, "title": "EPR Compliance" }
+    ]
+  }
+]
